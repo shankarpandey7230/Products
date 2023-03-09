@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Product Filters</title>
-</head>
-<body>
-    <!-- products -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Complete</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
     <section class="products">
-        <!-- filters -->
-        <div class="filters-container">
-            <!-- search -->
-            <form class="input-form">
-                <input type="text" class="search-input" placeholder="search...">
-            </form>
-            <!--Categories  -->
-            <h5>Company </h5>
-            <article class="companies">
-                <button class="company-btn">all</button>
-                
-                <button class="company-btn">ikea</button>
-                
-                <button class="company-btn">macros</button>
-            </article>
-        </div>
-        <!-- products -->
+      <!-- title -->
+      <div class="title">
+        <h2>our products</h2>
+        <div class="title-underline"></div>
+      </div>
+      <!-- products -->
+      <div class="products-center">
+        <!-- loading -->
+
         <div class="products-container">
-            <!--single product  -->
-                   </div>
+          <!-- single product -->
+          <a class="single-product" href="products.html">
+            <img src="./couch.jpg" class="single-product-img img" alt="title" />
+            <footer>
+              <h5 class="name">product title</h5>
+              <span class="price">$9.99</span>
+            </footer>
+          </a>
+        </div>
+      </div>
     </section>
-</body>
-<script src="./product.js"></script>
-<script src="./app.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
